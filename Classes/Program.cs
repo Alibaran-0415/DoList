@@ -55,10 +55,7 @@ namespace Classes
                 FirstName = "Mert",
                 LastName = "Yavuz"
             };
-
-            customerManager.Add(customer1);
-            customerManager.Update(customer1);
-  
+ 
             Console.WriteLine(customer4.City);
             Console.ReadLine();
         }
