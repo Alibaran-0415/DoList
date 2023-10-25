@@ -12,6 +12,7 @@ namespace Interfaces
         {
             //InterfacesIntro();
             //Demo();
+            //
             ICustomerDal[] customerDals = new ICustomerDal[3] 
             {
                 new SqlServerCustomerDal(),
