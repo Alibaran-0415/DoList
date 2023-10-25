@@ -6,16 +6,16 @@ using System.Threading.Tasks;
 
 namespace Classes
 {
-    internal class CustomerManager
+    internal class ProductManager
     {
         public void Add()
         {
-            Console.WriteLine("Customer Added!");
+            Console.WriteLine("Product Added!");
         }
 
         public void Update()
         {
-            Console.WriteLine("Customer Updated!");
+            Console.WriteLine("Product Updated!");
         }
     }
 }
