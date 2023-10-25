@@ -11,6 +11,7 @@ namespace Inheritance
     {
         static void Main(string[] args)
         {
+            //
             Person[] person = new Person[3]
             {
                 new Customer
