@@ -10,6 +10,7 @@ namespace InterfacesDemo
     {
         static void Main(string[] args)
         {
+            //
             IWorker[] workers = new IWorker[3]
             {
                 new Manager(),
