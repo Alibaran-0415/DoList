@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Classes
 {
-    internal class ProductManager
+     internal class ProductManager
     {
         public void Add()
         {
