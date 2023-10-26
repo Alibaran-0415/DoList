@@ -13,12 +13,13 @@ namespace Interfaces
             //InterfacesIntro();
             //Demo();
             //
-            ICustomerDal[] customerDals = new ICustomerDal[3] 
+            ICustomerDal[] customerDals = new ICustomerDal[3]
             {
                 new SqlServerCustomerDal(),
                 new OracleCustomerDal(),
                 new MySqlCustomerDal()
             };
+
             foreach (var customerDal in customerDals)
             {
                 customerDal.Add();
